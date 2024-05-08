@@ -21,7 +21,7 @@ def cleanResume(txt):
     return cleanTxt
 
 def main():
-    st.title("Smart Recruiter - A Smart Hiring Platform")
+    st.title("Smart Recruitment System")
     
     image = Image.open("recruitment.jpg")
     st.image(image, use_column_width=True,)
